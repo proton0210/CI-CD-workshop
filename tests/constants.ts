@@ -1,4 +1,4 @@
-export const DEV_USER_POOL_ID = "ap-south-1_MnkQzQA26";
-export const DEV_USER_POOL_CLIENT_ID = "4hobv4n26l1vv3itis5lti3oj7";
-export const DEV_DYNAMO_TABLE_NAME = "dev-table-academy";
-export const DEV_REGION = "ap-south-1";
+export const DEV_USER_POOL_ID = "ENTER_YOUR_DEV_USERPOOL_ID";
+export const DEV_USER_POOL_CLIENT_ID = "ENTER_YOUR_DEV_USERPOOL_CLIENT_ID";
+export const DEV_DYNAMO_TABLE_NAME = "ENTER_DEV_TABLE_NAME";
+export const DEV_REGION = "ENTER_DEV_REGION";
