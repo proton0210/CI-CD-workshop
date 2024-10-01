@@ -4,6 +4,7 @@ import * as when from "../steps/when";
 
 describe("When a user Signs up ", () => {
   it("Users profile should be saved in DynamoDB", async () => {
+    console.log("Starting test");
     const { password, given_name, family_name, email } = given.a_random_user();
     console.log("name: ", given_name, family_name);
     const userSub = await when.a_user_signs_up(
