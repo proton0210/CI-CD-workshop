@@ -1,15 +1,15 @@
 import * as cognito from "@aws-sdk/client-cognito-identity-provider";
 
-const cognitoClient = new cognito.CognitoIdentityProviderClient({
-  region: DEV_REGION,
-});
-
 import Chance from "chance";
 import {
   DEV_REGION,
   DEV_USER_POOL_CLIENT_ID,
   DEV_USER_POOL_ID,
 } from "../constants";
+const cognitoClient = new cognito.CognitoIdentityProviderClient({
+  region: DEV_REGION,
+});
+
 const chance = new Chance();
 
 const userpool = DEV_USER_POOL_ID;

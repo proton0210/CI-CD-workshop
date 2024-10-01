@@ -19,14 +19,14 @@
     "@aws-cdk/core:checkSecretUsage": true,
     "@aws-cdk/core:target-partitions": ["aws", "aws-cn"],
     "globals": {
-      "appName": "academy",
-      "region": "<ADD REGION>"
+      "appName": "CI-CD-Workshop",
+      "region": "ap-south-1"
     },
     "environments": [
       {
         "environment": "dev",
         "branchName": "dev",
-        "accountNumber": "<ADD DEV ACCOUNT NUMBER>",
+        "accountNumber": "699475921326",
         "s3Encryption": false,
         "ddbPITRecovery": false,
         "destroyPolicy": true
@@ -34,7 +34,7 @@
       {
         "environment": "prod",
         "branchName": "main",
-        "accountNumber": "<ADD PROD ACCOUNT NUMBER>",
+        "accountNumber": "390402571258",
         "s3Encryption": true,
         "ddbPITRecovery": true,
         "destroyPolicy": false
