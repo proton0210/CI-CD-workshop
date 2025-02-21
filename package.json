@@ -8,6 +8,7 @@
     "build": "tsc",
     "watch": "tsc -w",
     "cdk": "cdk",
+    "deploy": "cdk synth && cdk deploy --all --require-approval never",
     "github-deploy": "cdk synth && cdk deploy --all --require-approval never",
     "test": "jest jest --verbose ./tests/e2e/"
   },
